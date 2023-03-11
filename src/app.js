@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Home from "./components/home/home";
-import Resume from "./components/resume/resume";
-import Contact from "./components/contact/contact";
+import Home from "./pages/home";
+import Resume from "./pages/resume";
+import Contact from "./pages/contact";
 import Footer from "./components/footer";
-import About from "./components/about/about";
+import About from "./pages/about";
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
