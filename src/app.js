@@ -1,12 +1,19 @@
 import React, { useState, useEffect } from "react";
-import home from "./components/home/home";
-import resume from "./components/resume/resume";
-import contact from "./components/contact/contact";
+import Home from "./components/home/home";
+import Resume from "./components/resume/resume";
+import Contact from "./components/contact/contact";
 import footer from "./components/footer";
-import about from "./components/about/about";
+import About from "./components/about/about";
 
-function App(){
-
-};
+function App() {
+  return (
+    <div>
+      <Home />
+      <About />
+      <Resume />
+      <Contact />
+    </div>
+  );
+}
 
 export default App;
